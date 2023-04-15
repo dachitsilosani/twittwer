@@ -1,0 +1,191 @@
+
+.first-second {
+    display: flex;
+}
+.meoregverdi {
+    width: 597px;
+    height: 2000px;
+    font-family: arial;
+    border-right: 1px solid lightgray;
+    
+    
+}
+.meore-home {
+    width: 584px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    padding-left: 14px;
+    
+}
+.shignitadivi {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    
+}
+.homesdabla {
+display: flex;
+
+}
+.foryou , .following {
+    width: 294px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4px;
+    color: gray;
+}
+.foryou:hover , .following:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+}
+.status-box {
+    width: 598px;
+    height:181px;
+    display: flex;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    
+}
+.pirvelimxare {
+    height: 186px;
+    width: fit-content;
+}
+.pirvelimxare img {
+    margin-left: 16px;
+    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+
+}
+.pirvelimxare img:hover {
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.meoremxare {
+display: flex;
+flex-direction: column;
+
+}
+.meoremxare-row1 , .meoremxare-row2 , .meoremxare-row3 {
+    margin-left: 10px;
+}
+.meoremxare-row1 {
+margin-bottom: 28px;
+}
+.meoremxare-row1-div ,
+.meoremxare-row3-div {
+    width: fit-content;
+    height: 20px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3px;
+    padding-right: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.meoremxare-row1-div:hover ,
+.meoremxare-row3-div:hover{
+    cursor: pointer;
+    background-color: rgb(196, 214, 223);
+    transition: 0.15s;
+
+}
+
+.meoremxare-row1 span ,
+.meoremxare-row3 span {
+    color: rgb(29, 155, 240);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.meoremxare-row1 img , 
+.meoremxare-row3 img {
+    height: 16px;
+    width: 16px;
+    padding-left: 4px;
+}
+.meoremxare-row3 img {
+    padding-left: 0px;
+}
+.meoremxare-row3-div {
+    border: none;
+    padding: 1px 6px;
+}
+
+.meoremxare-row3 {
+    width: 502px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.meoremxare-row2 {
+    color: gray;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.meoremxare-row4 {
+   display: flex;
+   
+}
+.ikonebi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.ikonebi img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+.ikonebi img:hover {
+    background-color: rgb(196, 225, 235);
+}
+.ikonebi .tooltip {
+    position: absolute;
+    padding: 3px 2px;
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -12px;
+    opacity: 0;
+    font-family: arial;
+}
+.ikonebi:hover .tooltip {
+    opacity: 1;
+    transition: .15s;
+    transition-delay: 1s;
+}
+.locationi {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.mkrtalitweeti {
+    padding: 6px 12px;
+    margin: 10px 5px;
+    margin-left: 160px;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    background-color: rgb(61, 176, 253);
+    opacity: 0.6;
+}
