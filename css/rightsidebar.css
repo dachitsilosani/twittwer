@@ -1,3 +1,7 @@
+.rightsidebar {
+    display: flex;
+    flex-direction: column;
+}
 .searchtwitter {
     width: 300px;
     height: 20px;
@@ -5,19 +9,85 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: lightgray;
+    background-color: rgb(238, 243, 243);
     border-radius: 20px;
+    margin-top:4px ;
 }
 
 .rightimg {
-width: 16px;
-height: 16px;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
 }
 .inputi {
     font-size: 16px;
     font-family: arial;
     font-weight:100;
     border: none;
-    background-color: lightgray;
+    background-color:  rgb(238, 243, 243);
     outline: 0;
+    margin-left: 10px;
+}
+
+
+.trends {
+    margin-left: 40px;
+    margin-top: 16px;
+    background-color: rgb(238, 243, 243);
+    padding-top: 12px;
+    border-radius: 10px;
+}
+
+
+.trends1 span {
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.trends2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.trends2:hover {
+    cursor: pointer;
+    background-color:rgb(223, 226, 226) ;
+}
+
+.ghia {
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.ghia div {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding-right:20px ;
+}
+.muqi {
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.show {
+    padding-top: 10px;
+    margin-top: 24px;
+    padding-bottom: 20px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+.show span {
+    font-family: arial;
+    font-size: 15px;
+    color: rgb(0, 162, 255);
+}
+.show:hover {
+    cursor: pointer;
+    background-color:rgb(223, 226, 226) ;
 }
